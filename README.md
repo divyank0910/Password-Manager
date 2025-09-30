@@ -1,11 +1,67 @@
-Password Manager project
-Made By : Divyank Sharma
-contact : divyanksharma84@gmail.com
-Technologies Used:
-  backend: MongoDb for Database, ExpressJS ,CORS to resolve browser policy,nodemon for synchronised code editing, JWT for Authorization, Bcrypt for Hashing
-  frontend: ReactJS + TailwindCSS using Vite, Axios for handling api calls, React-Hot-Toast for responive feedback on actions, Moment for Date-based calculation
-Project is currently not hosted, to run use the following commands:
-backend : npm start
-remember to add start command in scripts in package.json
-"start": "nodemon app.js"
-frontend : npm run dev
+# 🔐 Password Manager
+
+A full-stack password manager application built with a modern tech stack.
+
+-   **Author:** Divyank Sharma
+-   **Contact:** [divyanksharma84@gmail.com](mailto:divyanksharma84@gmail.com)
+
+---
+
+## 🛠️ Technologies Used
+
+### Backend
+
+-   **Database:** MongoDB
+-   **Framework:** Express.js
+-   **Authentication:** JSON Web Tokens (JWT) for authorization & Bcrypt for hashing
+-   **Middleware:** CORS for resolving cross-origin requests
+-   **Development:** Nodemon for automatic server restarts
+
+### Frontend
+
+-   **Framework:** React.js (bootstrapped with Vite)
+-   **Styling:** TailwindCSS
+-   **API Calls:** Axios for promise-based HTTP requests
+-   **UI Feedback:** React-Hot-Toast for responsive notifications
+-   **Date Handling:** Moment.js for date calculations and formatting
+
+---
+
+## 🚀 Getting Started
+
+This project is not currently hosted. To run it locally, please follow the steps below.
+
+### Prerequisites
+
+-   Node.js and npm installed
+-   A running instance of MongoDB
+
+### Backend Setup
+
+1.  Clone the repository and navigate to the `backend` directory.
+2.  Install the required dependencies:
+    ```bash
+    npm install
+    ```
+3.  Ensure your `package.json` file includes the `start` script:
+    ```json
+    "scripts": {
+      "start": "nodemon app.js"
+    }
+    ```
+4.  Start the backend server:
+    ```bash
+    npm start
+    ```
+
+### Frontend Setup
+
+1.  Navigate to the `frontend` directory in a new terminal window.
+2.  Install the required dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the frontend development server:
+    ```bash
+    npm run dev
+    ```
